@@ -63,7 +63,7 @@ $node_(1) set Z_ 0.0
 $ns_ at 15.0 "$node_(1) setdest 50.0 25.0 10.0"
 $ns_ at 10.0 "$node_(0) setdest 69.0 42.0 25.0"
 
-$ns at 25.0 "$node_(1) set dest 485.0 490.0 100.0
+$ns at 25.0 "$node_(1) set dest 485.0 490.0 100.0"
 
 #Set up TCP connections
 set tcp [new Agent/TCP]
@@ -87,5 +87,5 @@ proc stop {} {
 }
 
 #Command to start the simulation
-puts "Starting SImulaion..."
+puts "Starting Simulaion..."
 $ns_ run
